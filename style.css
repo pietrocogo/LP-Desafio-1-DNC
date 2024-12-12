@@ -1,0 +1,118 @@
+body{
+    color:#000000;
+    font-family: "inter";
+}
+
+input{
+    padding: 15px;
+    width:300px;
+    font-size:18px;
+    font-family: "raleway";
+    font-weight: 600;
+    border:none;
+    border-radius: 5px;
+    margin-bottom:50px;
+}
+
+button{
+    font-family: "raleway";
+    margin-top:10px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#ffffff;
+    padding: 15px 30px;
+    background-color: #C07212;
+    border:none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: hsl(33, 83%, 38%);
+    transform: translateY(-3px) scale(1.02);
+    cursor:pointer;
+}
+
+button:active{
+    color:rgb(182, 182, 182);
+    background-color: hsl(33, 83%, 34%);
+}
+
+/* HEADER */
+
+#header{
+    background-color: #303030;
+    padding:100px 60px;
+}
+
+#headerTitle{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#headerTxt{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* DIV 2 */
+
+#div2{
+    padding:50px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bignumber{
+    color:black;
+    font-size: 40px;
+    font-weight: 650;
+}
+
+.tinyTxt{
+    margin: 0 auto;
+    padding-top: 0px;
+    color:black
+}
+
+/* DIV 3 (IMG) */
+
+#div3{
+    padding:50px;
+    background-color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div3Title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#div3Txt{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* DIV 4 (FORM)*/
+
+#div4{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #303030;
+    text-align:center;
+}
+
+#formLabel{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
